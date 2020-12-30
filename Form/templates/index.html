@@ -1,0 +1,492 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<section class="home-banner-area relative" id="home" data-parallax="scroll" data-image-src="{% static 'Form/img/header-bg.png' %}">
+		<div class="overlay-bg overlay"></div>
+		<h1 class="template-name">Plétra</h1>
+		<div class="container">
+			<div class="row fullscreen">
+			  <div class="banner-content col-lg-12">
+					{% if name %}
+				<p>Thanks {{ name }} We have recevied your mail. <br> Look out for updates by Pletra Team</p>
+				<br>
+				{% else %}
+				<p>Minting Beyond</p>
+				{% endif %}
+				  <h1>PLÉTRA
+					   <br>
+				    Devlabs
+				  </h1>
+				  <a href=#project class="primary-btn">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="head-bottom-meta">
+			<div class="d-flex meta-left no-padding">
+				<a href="https://www.facebook.com/pletradevlabsofficial"><span class="fa fa-facebook-f"></span></a>
+				<a href="https://www.instagram.com/pletradevlabs/"><span class="fa fa-instagram"></span></a>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<!-- Start features Area -->
+	<section class="features-area section-gap-top" id="news">
+		<div class="container">
+			<h2>Services</h2>
+			<p>Navigate to Services Page for more Information.</p>
+			<div class="row feature_inner">
+
+				<div class="col-lg-3 col-md-6">
+					<div class="feature-item">
+							<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_Rw4BoS.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+							<h4>Website </h4>
+						<ul>
+							<li>Front End Development</li>
+             	<li>Full Stack Development</li>
+							<li>Template Editing </li>
+             	<li>Prototype Designing </li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="feature-item">
+							<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_omnDaN.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;" autoplay loop  ></lottie-player>
+								<h4>Infographics </h4>
+						<ul>
+							<li>Brochures and Portfolios</li>
+							<li>Flyers and Posters</li>
+							<li>Business Cards</li>
+							<li>Logo Designing </li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="feature-item">
+						<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_2igbxsmm.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;" loop  autoplay></lottie-player>
+						<h4>Video and Media</h4>
+						<ul>
+							<li>Voiceovers</li>
+	            <li>Teasers</li>
+	            <li>Trailers</li>
+							<li>Logo Reveals</li>
+						</ul>
+						</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="feature-item">
+						<lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_eo7tdckt.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+						<h4>Softwares </h4>
+						<ul>
+							<li>Template Designing</li>
+							<li>User Interface Designing</li>
+						</ul>
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- End features Area -->
+
+	<!-- Start About Area -->
+	<section class="about-area section-gap" id="about">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-7 col-md-12 about-left">
+					<img class="img-fluid" src="{% static 'Form/img/about.png' %}" alt="">
+				</div>
+				<div class="col-lg-5 col-md-12 about-right">
+					<div class="section-title text-left">
+						<h2>About Us</h2>
+					</div>
+					<div>
+					  <p>Pletra DevLabs is an Information Technology Company We undertake projects, freelancing, and contract of:</p>
+					  <p class="col-lg-6"><strong>• </strong>All kinds of websites.</p>
+					  <p class="col-lg-6"><strong>• </strong>Logo Designing.</p>
+					  <p class="col-lg-6"><strong>• </strong>UI/UX Designing.</p>
+					  <p class="col-lg-6"><strong>• </strong>IT Support for your Online Businesses.</p>
+					  <p>We Pletra DevLabs, assure you of quality and efficiency with multiple projects across various domains.
+							 Our motto is to provide quality services to our customers and help them to grow their business online.
+							  Mainly we build the website and do designing stuff. We are a team of 7 people with a few hands-on projects.
+								As we are a team of Freshers and learners so we have more energy and enthusiasm.
+								 We are building ourselves to grow Pletra DevLabs and to provide more services to our customers.
+								 In the future, we will be providing you more services which include:</p>
+					  <p><strong>• </strong>Mobile application development (Android/IOS)</p>
+					  <p><strong>• </strong>Software development</p>
+					  <p><strong>• </strong>Cybersecurity Consultant</p>
+					  <p><strong>• </strong>Web apps, mobile application, and Software testing </p>
+					  <p><strong>• </strong>Security Auditing</p>
+					  <p><strong>• </strong>Prototyping Projects</p>
+					  <p><strong>• </strong>Digital marketing and SEO</p>
+						<p>If you want to get connected with us and want to know about our future projects and enhancement you can subscribe to our newsletter by filling the form in the contact section. </p>
+         </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Area -->
+
+	<!-- Start Project Area -->
+	<section class="project-area section-gap-top" id="project">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2>Our Previous Projects</h2>
+					</div>
+				</div>
+				<!-- <div class="col-lg-12">
+					<div class="filters mb-5">
+						<ul>
+							<li class="active" data-filter=".all">All</li>
+							<li data-filter=".popular">Popular</li>
+							<li data-filter=".latest">Latest</li>
+							<li data-filter=".following">Following</li>
+							<li data-filter=".upcoming">Upcoming</li>
+						</ul>
+					</div>
+				</div> -->
+			<!-- </div>
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="col-lg-6 col-md-4 grid-sizer"></div> -->
+
+					<div class="col-lg-6 grid-item col-md-6 all upcoming latest">
+						<div class="single-project">
+							<div class="relative">
+								<div class="thumb">
+									<img class="image img-fluid" src="{% static 'Form/img/projects/1.png' %}" alt="">
+								</div>
+								<div class="middle">
+									<h4>InchMark Decorators</h4>
+									<div class="cat">Interior Design</div>
+								</div>
+								<a class="overlay" href="https://www.inchmarkdecorators.com/"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 grid-item col-md-6 all popular">
+						<div class="single-project">
+							<div class="relative">
+								<div class="thumb">
+									<img class="image img-fluid" src="{% static 'Form/img/projects/2.png' %}" alt="">
+								</div>
+								<div class="middle">
+									<h4>Lucid Expositions</h4>
+									<div class="cat">Blogs</div>
+								</div>
+								<a class="overlay" href="https://www.lucidexpositions.in/"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 grid-item col-md-6 all latest following">
+						<div class="single-project">
+							<div class="relative">
+								<div class="thumb">
+									<img class="image img-fluid" src="{% static 'Form/img/projects/3.png' %}" alt="">
+								</div>
+								<div class="middle">
+									<h4>The Blog Boy</h4>
+									<div class="cat">Blogs</div>
+								</div>
+								<a class="overlay" href="https://www.theblogboy.in/"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Project Area -->
+
+	<!-- Start callto Area -->
+<!--	<section class="callto-area section-gap relative">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row">
+				<div class="call-wrap mx-auto">
+					<h1>View Our Project </h1>
+					<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=_C5vCGB8Xx0">
+						<span></span>
+					</a>
+					<p>05:35</p>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End callto Area -->
+	<!-- ======= Team Section ======= -->
+	<section id="team" class="team section-bg">
+		<div class="container" data-aos="fade-up">
+
+			<div class="section-title">
+				<h2>Our Team</h2>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="member" data-aos="fade-up" data-aos-delay="100">
+						<div class="pic"><img src="{% static 'Form/img/team/1.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Sajal Bhardwaj</h4>
+							<p>Front End Developer</p>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+					<div class="member">
+						<div class="pic"><img src="{% static 'Form/img/team/2.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Asim Tara Pathak</h4>
+							<span>Front End Developer</span>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+					<div class="member">
+						<div class="pic"><img src="{% static 'Form/img/team/3.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Trishabh Vats</h4>
+							<span>Full Stack Developer</span>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="member" data-aos="fade-up" data-aos-delay="100">
+						<div class="pic"><img src="{% static 'Form/img/team/4.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Ak Deepankar</h4>
+							<span>Designer</span>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+					<div class="member">
+						<div class="pic"><img src="{% static 'Form/img/team/5.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Tamanna Sethia</h4>
+							<span>Front End Developer</span>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+					<div class="member">
+						<div class="pic"><img src="{% static 'Form/img/team/6.png' %}" class="img-fluid" alt=""></div>
+						<div class="member-info">
+							<h4>Sibam Kumar</h4>
+							<span>Front End Developer</span>
+							<div class="social">
+								<a href=""><i class="icofont-twitter"></i></a>
+								<a href=""><i class="icofont-facebook"></i></a>
+								<a href=""><i class="icofont-instagram"></i></a>
+								<a href=""><i class="icofont-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<br>
+	</section><!-- End Team Section -->
+
+	<div class="container">
+		<div class="jumbotron">
+			<div class="section-title">
+				<h1>Contact</h1>
+
+				<div class="col-lg-9">
+
+					<form
+						class="row contact_form" action="{% url 'index' %}" method="post"	id="contact">
+						{% csrf_token %}
+
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control"	id="name"	name="name"	placeholder="Enter your name"	required/>
+							</div>
+							<div class="form-group">
+								<input	type="email"	class="form-control"	id="email" name="email"	placeholder="Enter email address" required/>
+							</div>
+							<div class="form-group">
+								<input	type="text" class="form-control"	id="subject"	name="subject"	placeholder="Enter Subject" required/>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea	class="form-control" name="message"	id="message" rows="1"	placeholder="Enter Message"	required></textarea>
+							</div>
+						</div>
+						<br><br><br><br>
+							<p align="center">             *Please make sure that you provide your email address and/or contact number inside the message body as well.* </p>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn primary-btn">
+								Send Message
+							</button>
+						</div>
+					</form>
+				</div>
+				</div>
+		</div>
+	</div>
+
+
+	<!--end form-->
+	<!-- Start testimonial Area -->
+<!--	<section class="testimonial-area relative section-gap" id="testimonial">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-12">
+					<div class="section-title text-center">
+						<h4>Testimonials</h4>
+						<h2>Happy Clients</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="active-testimonial">
+					<div class="single-testimonial item d-flex flex-row">
+						<div class="thumb">
+							<img class="" src="img/testimonial/t1.png" alt="">
+						</div>
+						<div class="desc">
+							<p>
+								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
+							</p>
+							<h4>Danyel Yarde</h4>
+							<div class="bottom">
+								<p>CEO & Founder</p>
+							</div>
+						</div>
+					</div>
+					<div class="single-testimonial item d-flex flex-row">
+						<div class="thumb">
+							<img class="" src="img/testimonial/t2.png" alt="">
+						</div>
+						<div class="desc">
+							<p>
+								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
+							</p>
+							<h4>Manel djuice</h4>
+							<div class="bottom">
+								<p>CEO & Founder</p>
+							</div>
+						</div>
+					</div>
+					<div class="single-testimonial item d-flex flex-row">
+						<div class="thumb">
+							<img class="" src="img/testimonial/t3.png" alt="">
+						</div>
+						<div class="desc">
+							<p>
+								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
+							</p>
+							<h4>Mark Alviro Wiens</h4>
+							<div class="bottom">
+								<p>CEO & Founder</p>
+							</div>
+						</div>
+					</div>
+					<div class="single-testimonial item d-flex flex-row">
+						<div class="thumb">
+							<img class="" src="img/testimonial/t2.png" alt="">
+						</div>
+						<div class="desc">
+							<p>
+								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
+							</p>
+							<h4>Manel djuice</h4>
+							<div class="bottom">
+								<p>CEO & Founder</p>
+							</div>
+						</div>
+					</div>
+					<div class="single-testimonial item d-flex flex-row">
+						<div class="thumb">
+							<img class="" src="img/testimonial/t1.png" alt="">
+						</div>
+						<div class="desc">
+							<p>
+								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
+							</p>
+							<h4>Mark Alviro Wiens</h4>
+							<div class="bottom">
+								<p>CEO & Founder</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End testimonial Area -->
+
+	<!-- Start brands Area -->
+<!--	<section class="brands-area">
+		<div class="container no-padding">
+			<div class="brand-wrap section-gap">
+				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brands/b1.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brands/b2.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brands/b3.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brands/b4.png" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/brands/b5.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- End brands Area -->
+{% endblock %}
